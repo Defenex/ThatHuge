@@ -8,7 +8,7 @@ ThatHugeFrame:SetScript("OnEvent", function(self, event, ...)
     if(event == "CHAT_MSG_GUILD_ACHIEVEMENT") then
         local seconds = GetTime()
         if(seconds - lastTimeTriggered > 1) then
-            SendChatMessage("GRATS THAT HUGE", "GUILD", nil)
+            SendChatMessage("I LOVE DEAD MEMES :)", "GUILD", nil)
             lastTimeTriggered = seconds
         end
     end
